@@ -87,7 +87,27 @@
             max-width: 300px; 
         }
 
-        
+        .contact-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #660990;
+        }
+
+        .contact-container h2 {
+            color: #fff;
+            text-align: center;
+        }
+
+        .contact-container button {
+            background-color: #fff;
+            color: #660990;
+        }
+
+        .contact-container button:hover {
+            background-color: #4b066e;
+            color: #fff;
+        }
     </style>
     <!-- Google Fonts link for Roboto -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
@@ -148,10 +168,14 @@
         <p> <b> Tailored Financial Solutions </b> </p>
         <p>As a former FedEx ISP and now specializing in serving FedEx and Amazon contractors, we provide our clients with personalized recommendations and strategies. For instance, we may suggest optimizing expense tracking to identify cost-saving opportunities or implementing a more efficient payroll system to streamline employee compensation processes. Contractors might receive guidance on cash flow management or visibility on how expenses vary from budget or industry averages, helping them maintain healthy financial liquidity and navigate seasonal fluctuations. In essence, these tailored solutions ensure that small businesses receive the precise financial support they need, allowing them to make informed decisions and achieve their unique financial objectives.  Our CFO advisory services will provide the insight and financial analysis you may currently be lacking but need to chart future growth. Moreover, if it's more financial organization you're looking for, our accounting services will also ensure you're ready with proper audit and tax preparation.</p>
         
-        <!-- Contact Us Button -->
-        <button onclick="window.location.href='#contact-form'">
-            Contact Us
-        </button>
+        <div class="contact-container">
+            <h2> Contact Us for More Information </h2>
+
+            <!-- Contact Us Button -->
+            <button onclick="window.location.href='#contact-form'">
+                Contact Us
+            </button>
+        </div>
     </div>
 </body>
 </html>
