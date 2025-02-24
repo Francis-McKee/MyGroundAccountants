@@ -37,6 +37,17 @@
             font-size: 16px;
         }
 
+        .list {
+            columns: 2;
+            column-gap: 40px;
+            list-style-position: inside;
+            padding: 0;
+        }
+
+        .list li {
+            break-inside: avoid; /* prevents awkward splitting of li */
+        }
+
         form {
             margin: 0 auto;
             max-width: 400px;
@@ -119,6 +130,10 @@
             .data {
                 width: 225px;
             }
+
+            .list {
+                columns: 1;
+            }
         }
     </style>
     <!-- Google Fonts link for Roboto -->
@@ -129,7 +144,7 @@
         <img src="/images/MyGroundAccountants.png" alt="Company Logo" style="max-width: 200px; display: block; margin: 0 auto;">
         <h1>ACCOUNTING SERVICES FOR FEDEX AND AMAZON TRANSPORTATION BUSINESSES</h1>
         <p>Your home for Amazon and FedEx Accounting & Payroll Solutions including:</p>
-        <ul>
+        <ul class="list">
             <li>Historical Clean Up</li>
             <li>Ongoing Expense Tracking</li>
             <li>Account Reconciliation</li>
