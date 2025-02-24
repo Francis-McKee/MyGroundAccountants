@@ -75,25 +75,36 @@
 
         input, textarea {
             width: 100%;
-            padding: 8px;
-            border-radius: 5px;
+            padding: 12px;
             border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+            color: #660990;
+        }
+
+        textarea {
+            height: 120px;
         }
 
         button {
             background-color: #660990;
             color: #fff;
-            padding: 10px 20px;
             border: none;
-            border-radius: 5px;
+            padding: 10px 20px;
+            border-radius: 4px;
             cursor: pointer;
-            display: block;
-            margin: 0 auto;
-            font-size: 14px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
         }
 
         button:hover {
             background-color: #4b066e;
+        }
+
+        input::placeholder,
+        textarea::placeholder {
+            color: #999;
         }
 
         /* images */
@@ -130,6 +141,8 @@
         .contact-container button {
             background-color: #fff;
             color: #660990;
+            display: block;
+            margin: 0 auto;
         }
 
         .contact-container button:hover {
@@ -174,19 +187,19 @@
         <form action="https://formspree.io/f/xzbnyzjo" method="POST">
             <label>
                 Name:
-                <input type="text" name="name" required>
+                <input type="text" name="name" placeholder="Enter your name here:" required>
             </label>
             <label>
                 Email:
-                <input type="email" name="email" required>
+                <input type="email" name="email" placeholder="Enter your email here:" required>
             </label>
             <label>
                 Phone:
-                <input type="tel" name="phone" required>
+                <input type="tel" name="phone" placeholder="Enter your phone number here:" required>
             </label>
             <label>
                 Message:
-                <textarea name="message" required></textarea>
+                <textarea name="message" placeholder="Enter your message here:" required></textarea>
             </label>
             <button type="submit">Send</button>
         </form>
