@@ -47,13 +47,11 @@ This required coordinating the technical implementation with an additional clien
 
 ## Technology Stack
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - Formspree
 - Google Analytics
 - Google Business Profile
-
-**Development approach:** Independently developed without AI-assisted design or code generation.
 
 ## Results and Impact
 
@@ -88,7 +86,7 @@ Suggested screenshots:
 
 ## About the Developer
 
-Developed by **Francis N. McKee**, founder of Francis N. McKee & Associates, LLC.
+Developed by **Francis McKee**, founder of Francis N. McKee & Associates, LLC.
 
 I help small businesses establish and improve their online presence through practical website development, digital visibility, and customer-focused web solutions.
 
